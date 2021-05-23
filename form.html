@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+       
+    </head>
+    <body>
+        <section>
+            <div class="container pt-5 col-sm-6">.
+            <h1>Registration Form </h1>
+            <form action="#" onsubmit="return validation()">
+            <div class="row pt-3">
+            <div class="col-sm-4 pt-3 ">
+            <input class="form-control" type="text" name="user" placeholder=" Name"  id="user" autocomplete="off">
+            <span id="username" class="text-danger"></span>
+            </div>
+            <div class="col-sm-4 pt-3 ">
+            <input class="form-control" type="text" name="username" placeholder="dd/mm/yyyy" id="DOB" autocomplete="off">
+            <span id="Dob" class="text-danger"></span>
+            </div>
+            <div class="col-sm-4 pt-3 ">
+                <select class="form-control form-group">
+                    <option selected>Gender</option>
+                    <option>Male</option>
+                     <option>Female</option>
+                      <option>Other</option>
+                  </select>
+            </div>
+            </div>
+            <div class="row">
+            <div class="col-sm-6 pt-3 ">
+            <input class="form-control" type="text" name="username" placeholder="Password" id="Pass" autocomplete="off">
+            <span id="pas" class="text-danger"></span>
+            </div>
+            <div class="col-sm-6 pt-3 ">
+            <input class="form-control" type="text" name="contact" placeholder="confirm password" id="ConPass" autocomplete="off">
+            <span id="conpas" class="text-danger"></span>
+            </div>
+            </div>
+            <div class="row">
+            <div class="col-sm-6 pt-3">
+            <input class="form-control" type="text" name="number" placeholder="mobile number" id="MobileNumber" autocomplete="off">
+            <span id="mobile" class="text-danger"></span>
+            </div>
+            <div class=" col-sm-6 pt-3">
+            <input class="form-control" type="text" name="adhar card" placeholder="adhar card number" id="AdharCard" autocomplete="off">
+            <span id="adhar" class="text-danger"></span>
+            </div>
+            </div>
+            <div class="pt-3">
+            <input class="form-control" type="text" name="email" placeholder="your mail" id="Email" autocomplete="off">
+            <span id="mail" class="text-danger"></span>
+            </div>
+            <div class="pt-3">
+                  <select class="form-control form-group">
+                    <option selected>select any course</option>
+                    <option>web development</option>
+                     <option>android development</option>
+                      <option>ios development</option>
+                  </select>
+                
+            </div>
+            
+            <div class=" pt-3">
+                  <select class="form-control form-group">
+                    <option selected>select your branch</option>
+                    <option>computer science</option>
+                     <option>electrical and communation</option>
+                      <option>information technology</option>
+                  </select>
+                </div>
+            <div class="pt-3">
+             <textarea class="form-control" placeholder="message"  style="height:100px;"></textarea>
+             <p>Terms and Conditions Applied*</p>
+             </div>
+             <div class="pt-3">
+             <input   type="submit" name="submit" value="submit" class="btn btn-primary" >
+             
+             </div>
+             </div>
+             
+            
+            </form>
+            </div>
+            </div>
+            </section>
+            <script type="text/javascript" src="form.js"></script>
+    </body>
+</html>
